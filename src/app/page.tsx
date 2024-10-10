@@ -19,7 +19,7 @@ export default function Home() {
       <AboutUsSection />
       <StatsSection />
       <HowWeWorkSection />
-      {/* <CasesSection /> */}
+      <CasesSection />
       <PrincingSection />
       {/* <FAQSection /> */}
 
