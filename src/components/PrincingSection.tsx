@@ -167,6 +167,53 @@ export function PrincingSection () {
                 </button>
               </CardFooter>
             </Card>
+
+            <Card className="flex w-80 flex-col justify-between text-left">
+              <CardHeader>
+                <CardTitle>
+                  <p>Personalizado</p>
+                </CardTitle>
+                <p className="text-sm text-muted-foreground">
+                  For professionals
+                </p>
+                <span className="text-4xl font-bold">
+                  $80
+                </span>
+                <p className="text-muted-foreground">
+                Rendendo 2,68% - 3,5% ao mes
+                </p>
+              </CardHeader>
+              <CardContent>
+                <Separator className="mb-6" />
+                <p className="mb-3 text-lg font-semibold">
+                  Everything in Plus, and:
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-center gap-2">
+                    <CircleCheck className="size-4" />
+                    <span>Lorem ipsum dolor sit.</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CircleCheck className="size-4" />
+                    <span>Lorem ipsum dolor sit.</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CircleCheck className="size-4" />
+                    <span>Lorem ipsum dolor sit.</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CircleCheck className="size-4" />
+                    <span>Lorem ipsum dolor sit.</span>
+                  </li>
+                </ul>
+              </CardContent>
+              <CardFooter className="mt-auto">
+                <button className="w-full">
+                  Get Started
+                  <ArrowRight className="ml-2 size-4" />
+                </button>
+              </CardFooter>
+            </Card>
           </div>
         </div>
       </div>
