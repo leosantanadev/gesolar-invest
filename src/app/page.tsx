@@ -1,10 +1,8 @@
 import { AboutUsSection } from "../components/AboutUsSection";
-import { CasesSection } from "../components/CasesSection";
 import { FAQSection } from "../components/FAQSection";
 import { FeatureSection } from "../components/FeatureSection";
 import { HeroSection } from "../components/HeroSection/HeroSection";
 import { HowWeWorkSection } from "../components/HowWeWorkSection";
-import { PrincingSection } from "../components/PrincingSection";
 
 export default function Home() {
   return (
@@ -13,7 +11,6 @@ export default function Home() {
       <FeatureSection />
       <AboutUsSection />
       <HowWeWorkSection />
-      {/* <PrincingSection /> */}
       <FAQSection />
     </>
   );
