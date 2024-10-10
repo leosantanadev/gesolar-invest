@@ -10,7 +10,7 @@ export function HeroSectionWithImage() {
                 <div className="flex items-center justify-center flex-col text-center">
                     <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center gap-6">
                         <h1 className="text-pretty text-4xl font-bold lg:text-6xl">
-                            Seja Bem vindo à <br /> <span className='text-primaryOrange-500'>Gesolar Invest</span>
+                            Seja Bem vindo à <br /> <span className='text-primaryOrange-500'>GESOLAR Invest</span>
                         </h1>
 
                         <p className="max-w-xl text-zinc-400 font-medium">
