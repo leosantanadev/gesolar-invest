@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, MessageCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { Button } from './ui/button';
@@ -10,13 +10,14 @@ import {
   CarouselContent,
   CarouselItem,
 } from './ui/carousel';
+import { CarrouselCharts } from './CarrouselChart';
 
 const data = [
   {
     id: 'item-1',
-    title: 'Duis sem sem, gravida vel porttitor eu, volutpat ut arcu',
+    title: 'Usina localizada no interior de são paulo de 30KW',
     summary:
-      'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
+      'O capital investido desse projeto é de R$ 90.000,00 e ele tem um retorno de 2,26%',
     href: '#',
     image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
   },
@@ -30,22 +31,6 @@ const data = [
   },
   {
     id: 'item-3',
-    title: 'Duis sem sem, gravida vel porttitor eu, volutpat ut arcu',
-    summary:
-      'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
-    href: '#',
-    image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
-  },
-  {
-    id: 'item-4',
-    title: 'Duis sem sem, gravida vel porttitor eu, volutpat ut arcu',
-    summary:
-      'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
-    href: '#',
-    image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
-  },
-  {
-    id: 'item-5',
     title: 'Duis sem sem, gravida vel porttitor eu, volutpat ut arcu',
     summary:
       'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
@@ -72,25 +57,17 @@ export function CasesSection() {
       carouselApi.off('select', updateSelection);
     };
   }, [carouselApi]);
+
   return (
-    <section className="py-32">
+    <section className="min-h-[80vh] h-full w-full max-w-screen-xl mx-auto px-4 py-12 lg:px-8">
       <div className="container">
         <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16">
-          <div>
-            <p className="mb-6 text-xs font-medium uppercase tracking-wider">
-              Tag Line
-            </p>
-            <h2 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-              Gallery
+          <div className='flex items-start flex-col'>
+            <h2 className="my-4 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
+              Conheça e invista nos projetos
             </h2>
-            <a
-              href="#"
-              className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
-            >
-              Book a demo{' '}
-              <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
-            </a>
           </div>
+
           <div className="mt-8 flex shrink-0 items-center justify-center gap-2">
             <Button
               size="icon"
@@ -117,6 +94,7 @@ export function CasesSection() {
           </div>
         </div>
       </div>
+
       <div className="w-full">
         <Carousel
           setApi={setCarouselApi}
@@ -151,16 +129,8 @@ export function CasesSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
-                    {item.title}
-                  </div>
-                  <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
-                    {item.summary}
-                  </div>
-                  <div className="flex items-center text-sm">
-                    Read more{' '}
-                    <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1" />
-                  </div>
+                  
+                  <CarrouselCharts />
                 </a>
               </CarouselItem>
             ))}

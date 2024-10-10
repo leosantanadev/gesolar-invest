@@ -5,7 +5,7 @@ import { HeroChart } from './HeroChart';
 
 export function HeroSection() {
   return (
-    <section className="h-full w-full max-w-screen-xl flex items-center justify-center mx-auto px-4 py-20 lg:px-8 lg:gap-8">
+    <section className="min-h-[85vh] h-full w-full max-w-screen-xl flex items-center justify-center mx-auto px-4 py-20 lg:px-8 lg:gap-8">
       <div className='flex flex-1 flex-col items-center justify-between gap-12 lg:flex-row'>
         <div>
           <div className="w-full max-w-lg flex flex-col items-start text-left md:items-center md:text-center lg:items-start lg:text-start">

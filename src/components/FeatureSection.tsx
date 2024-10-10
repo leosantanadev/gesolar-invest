@@ -7,42 +7,42 @@ import {
   
   const features = [
     {
-      title: 'Performance',
+      title: 'Investimento  seguro e inteligente',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'As usinas são ativos de grande apelo tecnológico e ambiental. A demanda por energia está cada vez maior e por ser sustentavel, a energia solar promove potencial de alta rentabilidade  em operações de uma plataforma fácil e simples de operar.',
       icon: <Timer className="size-4 md:size-6" />,
     },
     {
-      title: 'Innovation',
+      title: 'Especialistas',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Nossos especialistas  são profissionais qualificados e certificados no mercado. Realizam análises nas áreas de crédito, jurídica e financeiras para apresentar os melhores projetos fotovoltaicos para você investir com segurança.',
       icon: <Zap className="size-4 md:size-6" />,
     },
     {
-      title: 'Quality',
+      title: 'Retorno garantido',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'O seu investimento estará atrelado à energia do futuro, que figura nas pautas da agenda mundial e que tem muito a crescer.',
       icon: <ZoomIn className="size-4 md:size-6" />,
     },
     {
-      title: 'Accessibility',
+      title: 'Transparência',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Acompanhe em tempo real o status do andamento da construção, geração e economia das usinas nas quais você investiu.',
       icon: <PersonStanding className="size-4 md:size-6" />,
     }
   ];
   
   export function FeatureSection() {
     return (
-      <section className="min-h-[65vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 lg:px-8">
+      <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 pt-16 pb-20 lg:px-8">
         <div>
           <div className='flex flex-col items-start mb-4 md:items-center md:text-center lg:items-start lg:text-left'>
             <p className='px-6 py-1 border border-zinc-500 rounded-full font-medium text-sm text-zinc-400'>
-              Features
+              Por que a gesolar?
             </p>
             
             <h2 className="mt-4 mb-8 text-3xl font-semibold lg:text-4xl">
-              Our Core <span className='text-primaryOrange-500'>Features</span>
+              Nossos <span className='text-primaryOrange-500'>Diferenciais</span>
             </h2>
           </div>
 

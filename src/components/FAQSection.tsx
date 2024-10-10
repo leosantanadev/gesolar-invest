@@ -30,7 +30,7 @@ export function FAQSection() {
     ];
   
     return (
-      <section>
+      <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 lg:px-8">
         <div className="w-full max-w-screen-xl mx-auto px-4 lg:px-8">
           <h1 className="mb-4 text-3xl font-semibold md:mb-11 md:text-5xl">
             Frequently asked questions

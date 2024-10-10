@@ -15,9 +15,13 @@ import { Separator } from './ui/separator';
 export function PrincingSection () {
   const [isYearly, setIsYearly] = useState(false);
   return (
-    <section className="py-32">
-      <div className="container">
+    <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 lg:px-8">
+      <div>
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
+          <p className='px-6 py-1 border border-zinc-500 rounded-full font-medium text-sm text-zinc-400'>
+            Nossos Planos
+          </p>
+
           <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
             Pricing
           </h2>
@@ -162,10 +166,6 @@ export function PrincingSection () {
                   <ArrowRight className="ml-2 size-4" />
                 </button>
               </CardFooter>
-            </Card>
-
-            <Card className="bg-[#0a0a0a] flex w-80 flex-col justify-between text-left border-zinc-800">
-                <span>personalizado</span>
             </Card>
           </div>
         </div>
