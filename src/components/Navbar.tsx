@@ -8,7 +8,7 @@ export function Navbar() {
             <div className="flex items-center">
               <img
                 src={Logo.src}
-                className="w-52"
+                className="w-48"
                 alt="logo"
               />
             </div>
