@@ -20,7 +20,7 @@ export default function Home() {
       <StatsSection />
       <HowWeWorkSection />
       <CasesSection />
-      <PrincingSection />
+      {/* <PrincingSection /> */}
       {/* <FAQSection /> */}
 
       <div className="fixed inset-x-0 bottom-0 flex items-center justify-center m-4">
