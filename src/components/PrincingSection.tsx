@@ -15,7 +15,7 @@ import { Separator } from './ui/separator';
 export function PrincingSection () {
   const [isYearly, setIsYearly] = useState(false);
   return (
-    <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 lg:px-8">
+    <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 pb-24 lg:px-8">
       <div>
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
           <p className='px-6 py-1 border border-zinc-500 rounded-full font-medium text-sm text-zinc-400'>
@@ -42,7 +42,7 @@ export function PrincingSection () {
                   {isYearly ? '$15' : '$19'}
                 </span>
                 <p className="text-muted-foreground">
-                  Billed {isYearly ? '$180' : '$228'} anually
+                  Rendendo 1,9% ao mes
                 </p>
               </CardHeader>
               <CardContent>
@@ -86,7 +86,7 @@ export function PrincingSection () {
                   {isYearly ? '$35' : '$49'}
                 </span>
                 <p className="text-muted-foreground">
-                  Billed {isYearly ? '$420' : '$588'} anually
+                  Rendendo 2,26% ao mes
                 </p>
               </CardHeader>
               <CardContent>
@@ -133,7 +133,7 @@ export function PrincingSection () {
                   {isYearly ? '$35' : '$49'}
                 </span>
                 <p className="text-muted-foreground">
-                  Billed {isYearly ? '$420' : '$588'} anually
+                Rendendo 2,68% ao mes
                 </p>
               </CardHeader>
               <CardContent>
