@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { AboutUsSection } from "../components/AboutUsSection";
 import { CasesSection } from "../components/CasesSection";
 import { FAQSection } from "../components/FAQSection";
@@ -8,10 +7,13 @@ import { HowWeWorkSection } from "../components/HowWeWorkSection";
 import { PrincingSection } from "../components/PrincingSection";
 import { StatsSection } from "../components/StatsSection";
 import { BsWhatsapp } from "react-icons/bs";
+import { Navbar } from "../components/Navbar";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
+
       <HeroSectionWithImage />
       <FeatureSection />
       <AboutUsSection />

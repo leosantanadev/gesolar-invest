@@ -29,7 +29,7 @@ export function PrincingSection () {
             Check out our affordable pricing plans
           </p>
 
-          <div className="flex flex-col items-stretch gap-6 md:flex-row">
+          <div className="flex flex-col flex-wrap items-stretch gap-6 lg:flex-row">
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle>
