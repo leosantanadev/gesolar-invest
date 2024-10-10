@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --chart-1: #f9a826;
+    --chart-2: #E76E50;
+    --chart-3: #274754;
+    --chart-4: #E8C468;
+    --chart-5: #F4A462;
+  }
+}
+
