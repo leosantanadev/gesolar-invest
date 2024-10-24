@@ -19,12 +19,8 @@ export function PrincingSection () {
       <div>
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-12 text-center">
           <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
-            <p className='font-medium text-sm text-primaryOrange-500'>
-              Nossos Planos
-            </p>
-
             <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
-              USINAS FOTOVOLTAICAS​
+              Nossos Planos
             </h2>
             
             <p className="mb-4 max-w-xl text-sm text-zinc-500 md:text-base">
@@ -36,12 +32,12 @@ export function PrincingSection () {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle className='mb-4'>
-                  <p className='text-[17px]'>Básico</p>
+                  <p className='text-xl font-semibold'>Básico</p>
                 </CardTitle>
-                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 100.000,00</span></span>
-                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 10.000,00</span></span>
-                <span className="text-lg font-semibold">
-                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,7%</span> ao mes
+                <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 100.000,00</span></span>
+                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 10.000,00</span></span>
+                <span className="text-lg font-medium">
+                  Rentabilidade: <span className='text-primaryOrange-500'>1,7%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -72,12 +68,12 @@ export function PrincingSection () {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle className='mb-4'>
-                  <p className='text-[17px] font-medium'>Pro</p>
+                  <p className='text-xl font-medium'>Pro</p>
                 </CardTitle>
-                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 200.000,00</span></span>
-                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 20.000,00</span></span>
-                <span className="text-lg font-semibold">
-                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,8%</span> ao mes
+                <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 200.000,00</span></span>
+                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 20.000,00</span></span>
+                <span className="text-lg font-medium">
+                  Rentabilidade: <span className='text-primaryOrange-500'>1,8%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -108,12 +104,12 @@ export function PrincingSection () {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle className='mb-4'>
-                  <p className='text-[17px]'>Exclusivo</p>
+                  <p className='text-xl font-semibold'>Exclusivo</p>
                 </CardTitle>
-                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 250.000,00</span></span>
-                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 25.000,00</span></span>
-                <span className="text-lg font-semibold">
-                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>2,02%</span> ao mes
+                <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 250.000,00</span></span>
+                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 250.000,00</span></span>
+                <span className="text-lg font-medium">
+                  Rentabilidade: <span className='text-primaryOrange-500'>2,02%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -144,12 +140,12 @@ export function PrincingSection () {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle className='mb-4'>
-                  <p className='text-[17px]'>Exclusivo</p>
+                  <p className='text-xl font-semibold'>Personalizado</p>
                 </CardTitle>
-                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>Comodado</span></span>
-                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 128.889,00</span></span>
-                <span className="text-lg font-semibold">
-                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,52%</span> ao mes
+                <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>Comodato</span></span>
+                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 128.889,00</span></span>
+                <span className="text-lg font-medium">
+                  Rentabilidade: <span className='text-primaryOrange-500'>1,37%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>

@@ -140,7 +140,7 @@ export function CasesSection() {
         <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16">
           <div className='flex items-start flex-col'>
             <h2 className="my-4 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-              Conheça e invista nos projetos
+              Projetos já Consolidados
             </h2>
           </div>
 
