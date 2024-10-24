@@ -15,11 +15,11 @@ import {
     {
       title: 'Especialistas',
       description:
-        'Nossos especialistas  são profissionais qualificados e certificados no mercado. Realizam análises nas áreas de crédito, jurídica e financeiras para apresentar os melhores projetos fotovoltaicos para você investir com segurança.',
+        'Nossos especialistas  são profissionais qualificados e certificados no mercado. Realizam análises nas áreas de crédito, jurídica e financeira para apresentar os melhores projetos fotovoltaicos para você investir com segurança.',
       icon: <Zap className="size-4 md:size-6" />,
     },
     {
-      title: 'Retorno garantido',
+      title: 'Alto retorno e baixo risco​',
       description:
         'O seu investimento estará atrelado à energia do futuro, que figura nas pautas da agenda mundial e que tem muito a crescer.',
       icon: <ZoomIn className="size-4 md:size-6" />,

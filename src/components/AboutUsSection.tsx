@@ -13,20 +13,18 @@ export function AboutUsSection() {
           <div>
             <p className="mb-4 max-w-xl text-sm text-zinc-500 md:text-base">
               Somos a plataforma que traz pra você as melhoras oportunidades de investimento em energia solar. 
-              Conheça as usinas que estao esperando pelo seu investimento. 
-              Saiba quais são os projetos que serão vializados e a rentabilidade dos dividendos.
+              Apresentamos os projetos de usinas fotovoltaicas e disponibilizamos cotas de participação. 
+              Essas cotas proporcionam dividendos de alta rentabilidade para os cotistas investidores.​
             </p>
 
             <p className="mb-4 max-w-xl text-sm text-zinc-500 md:text-base">
-            A Gesolar Invest é umacorrespondente bancário que opera através de CCB (Cédula de Crédito Bancário) 
-            geradas por instituições bancárias, viabilizando transação de parcelamentos para clientes.
-            A atividade de correspondente bancário é regulada pelo Banco Central do Brasil, nos termos da Resolução nº. 3.954, de 24 de fevereiro de 2011.
+              Somos correspondentes bancário e operamos  através de CCB (Cédula de Crédito Bancário) geradas por instituições bancárias, 
+              viabilizando transações de parcelamentos para clientes. 
+              A atividade de correspondente bancário é regulada pelo Banco Central do Brasil, nos termos da Resolução nº. 3.954, de 24 de fevereiro de 2011
             </p>
 
             <p className="mb-4 max-w-xl text-sm text-zinc-500 md:text-base">
               Trabalhamos com investimentos alternativos que destacam-se por sua diferença em relação às opções de investimento tradicionais. 
-              Essa categoria abrange uma ampla gama de ativos e estratégias como fundos imobiliários, 
-              Private Equity, Venture Capital, Hedge Funds, Investimentos em recursos naturais como ouro, petróleo, energia, grãos, entre outros.
             </p>
           </div>
         </div>

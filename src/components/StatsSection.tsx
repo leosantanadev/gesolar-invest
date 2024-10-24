@@ -1,6 +1,6 @@
 export function StatsSection () {
     return (
-        <section className="min-h-[70vh] h-full w-full max-w-screen-xl mx-auto px-4 py-20 lg:px-8">
+        <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-20 lg:px-8">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-center text-4xl font-semibold lg:text-6xl">
             Nossos Números
@@ -10,7 +10,7 @@ export function StatsSection () {
             <div className="text-center">
               <p className="pt-4 text-4xl font-semibold text-primaryOrange-500 md:text-5xl lg:pt-10 lg:text-6xl">3.5 MW</p>
               <p className="text-lg font-semibold text-zinc-300 md:text-xl lg:text-2xl">
-                De potencia instaladas
+                De potência instalada​
               </p>
             </div>
             <div className="text-center">
@@ -20,9 +20,9 @@ export function StatsSection () {
               </p>
             </div>
             <div className="text-center">
-              <p className="pt-4 text-4xl font-semibold text-primaryOrange-500 md:text-5xl lg:pt-10 lg:text-6xl">+3.2 milhões</p>
+              <p className="pt-4 text-4xl font-semibold text-primaryOrange-500 md:text-5xl lg:pt-10 lg:text-6xl">+R$ 3.2 milhões</p>
               <p className="text-lg font-semibold text-zinc-300 md:text-xl lg:text-2xl">
-                De Reais em retorno do investimento
+                Em retorno do investimento
               </p>
             </div>
           </div>
