@@ -18,7 +18,7 @@ import {
 
 export const description = "A collection of health charts."
 
-export function CarrouselCharts() {
+export function CarrouselCharts({ data }: any) {
   return (
 
     <Card className="rounded-none origin-bottom transition duration-300 group-hover:scale-105" x-chunk="charts-01-chunk-4">
@@ -38,7 +38,7 @@ export function CarrouselCharts() {
                     color: "#c7861e",
                 },
                 }}
-                className="h-[140px] w-full"
+                className="h-[180px] w-full"
             >
                 <BarChart
                 margin={{
@@ -47,26 +47,7 @@ export function CarrouselCharts() {
                     top: 0,
                     bottom: 10,
                 }}
-                data={[
-                    {
-                    activity: "Power",
-                    value: (60) * 100,
-                    label: "60KW",
-                    fill: "var(--color-power)",
-                    },
-                    {
-                    activity: "Amount",
-                    value: (90) * 100,
-                    label: "RS 90.000,00",
-                    fill: "var(--color-amount)",
-                    },
-                    {
-                    activity: "Payback",
-                    value: 226 * 100,
-                    label: "Rendendo 2,26%",
-                    fill: "var(--color-payback)",
-                    },
-                ]}
+                data={data}
                 layout="vertical"
                 barSize={32}
                 barGap={2}

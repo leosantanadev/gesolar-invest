@@ -20,6 +20,30 @@ const data = [
       'O capital investido desse projeto é de R$ 90.000,00 e ele tem um retorno de 2,26%',
     href: '#',
     image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    chartData: [{
+      activity: "Usina",
+      value: (30) * 100,
+      label: "30KW",
+      fill: "var(--color-power)",
+      },
+      {
+      activity: "Capital Investido",
+      value: (90) * 100,
+      label: "RS 90.000,00",
+      fill: "var(--color-amount)",
+      },
+      {
+      activity: "Retorno Mensal",
+      value: 176 * 100,
+      label: "Rendendo 1,76%",
+      fill: "var(--color-payback)",
+    },
+    {
+      activity: "Captado",
+      value: (70) * 100,
+      label: "70%",
+      fill: "var(--chart-3)",
+    }]
   },
   {
     id: 'item-2',
@@ -28,6 +52,30 @@ const data = [
       'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
     href: '#',
     image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    chartData: [{
+      activity: "Unica",
+      value: (60) * 100,
+      label: "60KW",
+      fill: "var(--color-power)",
+      },
+      {
+      activity: "Capital Investido",
+      value: (180) * 100,
+      label: "RS 180.000,00",
+      fill: "var(--color-amount)",
+      },
+      {
+      activity: "Retorno Mensal",
+      value: 206 * 100,
+      label: "Rendendo 2,6%",
+      fill: "var(--color-payback)",
+    },
+    {
+      activity: "Captado",
+      value: (25) * 100,
+      label: "25%",
+      fill: "var(--chart-3)",
+    }]
   },
   {
     id: 'item-3',
@@ -36,6 +84,30 @@ const data = [
       'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
     href: '#',
     image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    chartData: [{
+      activity: "Power",
+      value: (75) * 100,
+      label: "75KW",
+      fill: "var(--color-power)",
+      },
+      {
+      activity: "Amount",
+      value: (250) * 100,
+      label: "RS 250.000,00",
+      fill: "var(--color-amount)",
+      },
+      {
+      activity: "Payback",
+      value: 186 * 100,
+      label: "Rendendo 1,86%",
+      fill: "var(--color-payback)",
+    },
+    {
+      activity: "Captado",
+      value: (90) * 100,
+      label: "90%",
+      fill: "var(--chart-3)",
+    }]
   },
 ];
 
@@ -116,7 +188,7 @@ export function CasesSection() {
                   href={item.href}
                   className="group flex flex-col justify-between"
                 >
-                  <div>
+                  <div className='h-full'>
                     <div className="flex aspect-[3/2] text-clip rounded-xl">
                       <div className="flex-1">
                         <div className="relative size-full origin-bottom transition duration-300 group-hover:scale-105">
@@ -130,7 +202,7 @@ export function CasesSection() {
                     </div>
                   </div>
                   
-                  <CarrouselCharts />
+                  <CarrouselCharts data={item.chartData}/>
                 </a>
               </CarouselItem>
             ))}

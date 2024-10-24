@@ -37,10 +37,6 @@ import {
       <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 pt-16 pb-20 lg:px-8">
         <div>
           <div className='flex flex-col items-start mb-4 md:items-center md:text-center lg:items-start lg:text-left'>
-            <p className='px-6 py-1 border border-zinc-500 rounded-full font-medium text-sm text-zinc-400'>
-              Por que a gesolar?
-            </p>
-            
             <h2 className="mt-4 mb-8 text-3xl font-semibold lg:text-4xl">
               Nossos <span className='text-primaryOrange-500'>Diferenciais</span>
             </h2>

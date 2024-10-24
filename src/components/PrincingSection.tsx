@@ -17,201 +17,163 @@ export function PrincingSection () {
   return (
     <section className="min-h-[85vh] h-full w-full max-w-screen-xl mx-auto px-4 py-16 pb-24 lg:px-8">
       <div>
-        <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
-          <p className='px-6 py-1 border border-zinc-500 rounded-full font-medium text-sm text-zinc-400'>
-            Nossos Planos
-          </p>
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-12 text-center">
+          <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
+            <p className='font-medium text-sm text-primaryOrange-500'>
+              Nossos Planos
+            </p>
 
-          <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
-            Pricing
-          </h2>
-          <p className="text-muted-foreground lg:text-xl">
-            Check out our affordable pricing plans
-          </p>
+            <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
+              USINAS FOTOVOLTAICAS​
+            </h2>
+            
+            <p className="mb-4 max-w-xl text-sm text-zinc-500 md:text-base">
+              Conheça os planos de cotas de investimento adequados ao seu perfil​
+            </p>
+          </div>
 
           <div className="flex flex-col flex-wrap items-stretch gap-6 lg:flex-row">
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
-                <CardTitle>
-                  <p>Plus</p>
+                <CardTitle className='mb-4'>
+                  <p className='text-[17px]'>Básico</p>
                 </CardTitle>
-                <p className="text-sm text-muted-foreground">
-                  For personal use
-                </p>
-                <span className="text-4xl font-bold">
-                  {isYearly ? '$15' : '$19'}
+                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 100.000,00</span></span>
+                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 10.000,00</span></span>
+                <span className="text-lg font-semibold">
+                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,7%</span> ao mes
                 </span>
-                <p className="text-muted-foreground">
-                  Rendendo 1,9% ao mes
-                </p>
               </CardHeader>
               <CardContent>
-                <Separator className="mb-6" />
+                <Separator className="mb-2" />
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Cotas disponiveis</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Prazo: 20 meses</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Diferencial x% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
-              <CardFooter className="mt-auto">
-                <button className="w-full">
-                  Get Started
+              <CardFooter className="">
+                <a href='https://w.app/DeG5rn' target='_blank' className="w-full flex items-center justify-center ">
+                  Saber mais
                   <ArrowRight className="ml-2 size-4" />
-                </button>
+                </a>
               </CardFooter>
             </Card>
 
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
-                <CardTitle>
-                  <p>Pro</p>
+                <CardTitle className='mb-4'>
+                  <p className='text-[17px] font-medium'>Pro</p>
                 </CardTitle>
-                <p className="text-sm text-muted-foreground">
-                  For professionals
-                </p>
-                <span className="text-4xl font-bold">
-                  {isYearly ? '$35' : '$49'}
+                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 200.000,00</span></span>
+                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 20.000,00</span></span>
+                <span className="text-lg font-semibold">
+                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,8%</span> ao mes
                 </span>
-                <p className="text-muted-foreground">
-                  Rendendo 2,26% ao mes
-                </p>
               </CardHeader>
               <CardContent>
-                <Separator className="mb-6" />
-                <p className="mb-3 text-lg font-semibold">
-                  Everything in Plus, and:
-                </p>
+                <Separator className="mb-2" />
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Cotas disponiveis</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Prazo: 20 meses</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Diferencial x% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
-              <CardFooter className="mt-auto">
-                <button className="w-full">
-                  Get Started
+              <CardFooter className="">
+                <a href='https://w.app/DeG5rn' target='_blank' className="w-full flex items-center justify-center ">
+                  Saber mais
                   <ArrowRight className="ml-2 size-4" />
-                </button>
+                </a>
               </CardFooter>
             </Card>
 
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
-                <CardTitle>
-                  <p>Pro</p>
+                <CardTitle className='mb-4'>
+                  <p className='text-[17px]'>Exclusivo</p>
                 </CardTitle>
-                <p className="text-sm text-muted-foreground">
-                  For professionals
-                </p>
-                <span className="text-4xl font-bold">
-                  {isYearly ? '$35' : '$49'}
+                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>R$ 250.000,00</span></span>
+                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 25.000,00</span></span>
+                <span className="text-lg font-semibold">
+                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>2,02%</span> ao mes
                 </span>
-                <p className="text-muted-foreground">
-                Rendendo 2,68% ao mes
-                </p>
               </CardHeader>
               <CardContent>
-                <Separator className="mb-6" />
-                <p className="mb-3 text-lg font-semibold">
-                  Everything in Plus, and:
-                </p>
+                <Separator className="mb-2" />
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Cotas disponiveis: Unica</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Prazo: 20 meses</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Diferencial x% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
-              <CardFooter className="mt-auto">
-                <button className="w-full">
-                  Get Started
+              <CardFooter className="">
+                <a href='https://w.app/DeG5rn' target='_blank' className="w-full flex items-center justify-center ">
+                  Saber mais
                   <ArrowRight className="ml-2 size-4" />
-                </button>
+                </a>
               </CardFooter>
             </Card>
 
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
-                <CardTitle>
-                  <p>Personalizado</p>
+                <CardTitle className='mb-4'>
+                  <p className='text-[17px]'>Exclusivo</p>
                 </CardTitle>
-                <p className="text-sm text-muted-foreground">
-                  For professionals
-                </p>
-                <span className="text-4xl font-bold">
-                  $80
+                <span className="text-lg font-semibold">Projeto: <span className='font-medium text-primaryOrange-500'>Comodado</span></span>
+                <span className="text-lg font-semibold">Valor da conta:  <span className='font-medium text-primaryOrange-500'>R$ 128.889,00</span></span>
+                <span className="text-lg font-semibold">
+                  Rentabilidade: <span className='font-medium text-primaryOrange-500'>1,52%</span> ao mes
                 </span>
-                <p className="text-muted-foreground">
-                Rendendo 2,68% - 3,5% ao mes
-                </p>
               </CardHeader>
               <CardContent>
-                <Separator className="mb-6" />
-                <p className="mb-3 text-lg font-semibold">
-                  Everything in Plus, and:
-                </p>
+                <Separator className="mb-2" />
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Cotas disponiveis: Unica</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Prazo: 72 meses</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Remunera capital inicial</span>
                   </li>
                 </ul>
               </CardContent>
-              <CardFooter className="mt-auto">
-                <button className="w-full">
-                  Get Started
+              <CardFooter className="">
+                <a href='https://w.app/DeG5rn' target='_blank' className="w-full flex items-center justify-center ">
+                  Saber mais
                   <ArrowRight className="ml-2 size-4" />
-                </button>
+                </a>
               </CardFooter>
             </Card>
           </div>

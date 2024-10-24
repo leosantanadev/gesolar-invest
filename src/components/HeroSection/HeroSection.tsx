@@ -15,7 +15,7 @@ export function HeroSection() {
               Welcome to Our <span className='text-primaryOrange-500'>Website</span>
             </h1>
 
-            <p className="max-w-xl mb-8 text-zinc-500 font-normal lg:text-md">
+            <p className="max-w-xl mb-8 text-zinc-500 font-normal text-base lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig
                 doloremque mollitia fugiat omnis! Porro facilis quo animi
                 consequatur. Explicabo.
