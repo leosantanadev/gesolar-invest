@@ -1,3 +1,5 @@
+import aboutUs from '@/src/app/assets/about-us-image.png';
+
 export function AboutUsSection() {
   return (
     <section className="min-h-[75vh] h-full w-full max-w-screen-xl mx-auto px-4 lg:px-8">
@@ -31,7 +33,7 @@ export function AboutUsSection() {
 
         <div className="w-full h-full flex items-center justify-center">
           <img
-            src="https://www.shadcnblocks.com/images/block/placeholder-1.svg"
+            src={aboutUs.src}
             alt="placeholder hero"
             className="max-h-96 w-full rounded-md object-cover"
           />

@@ -12,6 +12,10 @@ import {
 } from './ui/carousel';
 import { CarrouselCharts } from './CarrouselChart';
 
+import image1 from '@/src/app/assets/image-cases-1.png';
+import image2 from '@/src/app/assets/image-cases-2.png';
+import image3 from '@/src/app/assets/image-cases-3.png';
+
 const data = [
   {
     id: 'item-1',
@@ -19,7 +23,7 @@ const data = [
     summary:
       'O capital investido desse projeto é de R$ 90.000,00 e ele tem um retorno de 2,26%',
     href: '#',
-    image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    image: image1.src,
     chartData: [{
       activity: "Usina",
       value: (30) * 100,
@@ -51,7 +55,7 @@ const data = [
     summary:
       'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
     href: '#',
-    image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    image: image2.src,
     chartData: [{
       activity: "Unica",
       value: (60) * 100,
@@ -83,7 +87,7 @@ const data = [
     summary:
       'Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.',
     href: '#',
-    image: 'https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg',
+    image: image3.src,
     chartData: [{
       activity: "Power",
       value: (75) * 100,
