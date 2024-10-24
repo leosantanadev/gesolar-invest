@@ -20,13 +20,12 @@ export function HowWeWorkSection() {
 
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                <span className='mr-2'>1.</span>Abra sua conta
+                <span className='mr-2'>1.</span>Fale com um especialista​
                 <span className="absolute -left-px hidden h-6 w-px bg-primaryOrange-600 md:inline-block"></span>
               </h3>
 
               <p className="text-sm text-zinc-500 md:text-base">
-                Acesse a plataforma pelo site www.gesola.investimento.com.br
-                E crie sua conta gratuitamente
+                Saiba todas as informações, benefícios e vantagens ao contratar sua cota de investimento​
               </p>
             </div>
           </div>
