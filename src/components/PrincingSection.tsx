@@ -71,7 +71,7 @@ export function PrincingSection () {
                   <p className='text-xl font-medium'>Pro</p>
                 </CardTitle>
                 <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 200.000,00</span></span>
-                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 20.000,00</span></span>
+                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 50.000,00</span></span>
                 <span className="text-lg font-medium">
                   Rendimento médio: <span className='text-primaryOrange-500'>1,8%</span> ao mes
                 </span>
