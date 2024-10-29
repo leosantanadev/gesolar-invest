@@ -17,11 +17,11 @@ export default function Home() {
 
       <HeroSectionWithImage />
       <FeatureSection />
-      <AboutUsSection />
       <StatsSection />
       <HowWeWorkSection />
       <PrincingSection />
       <CasesSection />
+      <AboutUsSection />
       <Footer />
       {/* <FAQSection /> */}
 

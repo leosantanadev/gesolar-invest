@@ -2,7 +2,7 @@ import aboutUs from '@/src/app/assets/about-us-image.png';
 
 export function AboutUsSection() {
   return (
-    <section className="min-h-[75vh] h-full w-full max-w-screen-xl mx-auto px-4 lg:px-8">
+    <section className="min-h-[75vh] h-full w-full max-w-screen-xl mx-auto px-4 py-20 lg:px-8">
       <div className="grid items-center gap-8 lg:grid-cols-2">
 
         <div className="flex flex-col items-start text-left sm:items-center sm:text-center lg:items-start lg:text-left">

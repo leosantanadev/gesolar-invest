@@ -13,7 +13,7 @@ export function HeroSectionWithImage() {
                             Seja Bem vindo à <br /> <span className='text-primaryOrange-500'>GESOLAR Invest</span>
                         </h1>
 
-                        <p className="max-w-xl text-zinc-400 font-medium">
+                        <p className="max-w-xl text-zinc-400 font-medium lg:text-lg">
                             Invista em usinas de energia solar de forma fácil, 
                             simples e descomplicada, 
                             com alta rentabilidade e baixo risco.

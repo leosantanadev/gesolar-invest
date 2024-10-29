@@ -35,9 +35,9 @@ export function PrincingSection () {
                   <p className='text-xl font-semibold'>Básico</p>
                 </CardTitle>
                 <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 100.000,00</span></span>
-                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 10.000,00</span></span>
+                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 10.000,00</span></span>
                 <span className="text-lg font-medium">
-                  Rentabilidade: <span className='text-primaryOrange-500'>1,7%</span> ao mes
+                  Rendimento médio: <span className='text-primaryOrange-500'>1,7%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -45,15 +45,15 @@ export function PrincingSection () {
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Cotas disponiveis</span>
+                    <span>Cotas disponiveis: 10</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Prazo: 20 meses</span>
+                    <span>Prazo: 10 anos</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Diferencial x% do CDI</span>
+                    <span>Aprox. 200% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
@@ -71,9 +71,9 @@ export function PrincingSection () {
                   <p className='text-xl font-medium'>Pro</p>
                 </CardTitle>
                 <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 200.000,00</span></span>
-                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 20.000,00</span></span>
+                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 20.000,00</span></span>
                 <span className="text-lg font-medium">
-                  Rentabilidade: <span className='text-primaryOrange-500'>1,8%</span> ao mes
+                  Rendimento médio: <span className='text-primaryOrange-500'>1,8%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -81,15 +81,15 @@ export function PrincingSection () {
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Cotas disponiveis</span>
+                    <span>Cotas disponiveis: 04</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Prazo: 20 meses</span>
+                    <span>Prazo: 10 anos</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Diferencial x% do CDI</span>
+                    <span>Aprox. 210% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
@@ -107,9 +107,9 @@ export function PrincingSection () {
                   <p className='text-xl font-semibold'>Exclusivo</p>
                 </CardTitle>
                 <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>R$ 250.000,00</span></span>
-                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 250.000,00</span></span>
+                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 250.000,00</span></span>
                 <span className="text-lg font-medium">
-                  Rentabilidade: <span className='text-primaryOrange-500'>2,02%</span> ao mes
+                  Rendimento médio: <span className='text-primaryOrange-500'>2,0%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -121,11 +121,11 @@ export function PrincingSection () {
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Prazo: 20 meses</span>
+                    <span>Prazo: 10 anos</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Diferencial x% do CDI</span>
+                    <span>Aprox. 224% do CDI</span>
                   </li>
                 </ul>
               </CardContent>
@@ -143,9 +143,12 @@ export function PrincingSection () {
                   <p className='text-xl font-semibold'>Personalizado</p>
                 </CardTitle>
                 <span className="text-lg font-medium">Projeto: <span className='text-primaryOrange-500'>Comodato</span></span>
-                <span className="text-lg font-medium">Valor da conta:  <span className='text-primaryOrange-500'>R$ 128.889,00</span></span>
+                <span className="text-lg font-medium">Valor da cota:  <span className='text-primaryOrange-500'>R$ 128.889,00</span></span>
                 <span className="text-lg font-medium">
-                  Rentabilidade: <span className='text-primaryOrange-500'>1,37%</span> ao mes
+                  Rendimento médio: <span className='text-primaryOrange-500'>1,5%</span> ao mes
+                </span>
+                <span className="text-lg font-medium">
+                  Retorno do capital: <span className='text-primaryOrange-500'>1,37%</span> ao mes
                 </span>
               </CardHeader>
               <CardContent>
@@ -161,7 +164,7 @@ export function PrincingSection () {
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Remunera capital inicial</span>
+                    <span>Garantia: <span className='text-primaryOrange-500'>contrato comodato</span></span>
                   </li>
                 </ul>
               </CardContent>
